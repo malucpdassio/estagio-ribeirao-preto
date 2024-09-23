@@ -1,0 +1,12 @@
+int INDICE = 12, SOMA = 0, K = 1;
+enquanto K < INDICE faça {
+    K = K + 1;
+    SOMA = SOMA + K;
+}
+imprimir(SOMA);
+
+// ao executar o codigo, a variavel K é incrementada enquanto é menor que 12
+//Somando seu valor a uma variavel SOMA
+//K irá começar em um e a SOMA em 0, a cada iteração, o valor K é incrementado e um novo valor é adicionado a soma.
+// ou seja, K = 1: SOMA = 0 + 2 = 2 / K = 2: SOMA = 2 + 3 = 5 / K = 3: SOMA = 5 + 4 = 9
+// Ao final, a Soma total será igual a 77
